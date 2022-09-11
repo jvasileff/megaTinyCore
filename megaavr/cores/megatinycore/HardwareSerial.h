@@ -30,7 +30,7 @@
 #pragma once
 
 #include <inttypes.h>
-#include "Stream.h"
+#include "api/Stream.h"
 #include "pins_arduino.h"
 #include "UART_constants.h"
 #include "UART_check_pins.h"
