@@ -97,26 +97,15 @@ jobs:
 
       matrix:
         flash-class:
-          - 32
-          - 16
           - 8
-          - 4
-          - 2
         peripheral-class:
-          - 2
           - 1
-          - 0
         IO-class:
-          - 7
           - 6
-          - 4
-          - 2
         bootloader-series:
-          - y
           - 2
         bootloader-code:
           -
-          - o
 
         # Filter out these matrix combinations
         exclude:
