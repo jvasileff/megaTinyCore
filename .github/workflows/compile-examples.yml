@@ -220,7 +220,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -252,7 +252,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -280,7 +280,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -310,7 +310,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -339,7 +339,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -369,7 +369,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -398,7 +398,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -428,7 +428,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
@@ -458,7 +458,7 @@ jobs:
           libraries: |
             # The sketches don't have any external library dependencies, so just define an empty array
             -
-          verbose: false
+          verbose: true
           enable-deltas-report: true
           enable-warnings-report: true
           sketches-report-path: sketches-reports
