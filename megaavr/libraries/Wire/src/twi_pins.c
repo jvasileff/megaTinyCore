@@ -438,7 +438,7 @@ void TWI0_usePullups() {
         port->PIN3CTRL |= PORT_PULLUPEN_bm;
       }
     #endif
-  #elif defined(MEGATINYCORE) && MEGATINYCORE_SERIES != 2  /* tinyAVR 0/1-series */
+  #elif defined(MEGATINYCORE)
     #if defined(PORTMUX_TWI0_bm) // 1-series with remappable TWI
       if (true == (PORTMUX.CTRLB & PORTMUX_TWI0_bm)) {
         PORTA.OUTCLR    = 0x06;
